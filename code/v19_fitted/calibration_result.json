@@ -1,0 +1,28 @@
+{
+  "chosen": {
+    "price": "4",
+    "reserve": "0.0",
+    "mean_throughput": "5.063093333333334",
+    "max_energy": "0.2935781973059049",
+    "feasible": "5",
+    "n": "5"
+  },
+  "fit_seeds": [
+    9101,
+    9102,
+    9103,
+    9104,
+    9105,
+    9106
+  ],
+  "calibration_seeds": [
+    9201,
+    9202,
+    9203,
+    9204,
+    9205
+  ],
+  "cap_mj_step": 0.2944864377500498,
+  "feasible_candidates": 12,
+  "status": "calibrated before evaluation"
+}

@@ -1,0 +1,35 @@
+{
+  "selected_method": "guard_0.0",
+  "eligible": [
+    [
+      5.024622222222223,
+      "guard_0.0"
+    ],
+    [
+      4.980829629629629,
+      "guard_0.003"
+    ],
+    [
+      4.926962962962963,
+      "guard_0.007"
+    ],
+    [
+      4.952977777777778,
+      "guard_0.012"
+    ],
+    [
+      4.85108148148148,
+      "guard_0.020"
+    ]
+  ],
+  "constraints": "Each dev scenario >=95% seed-average feasible and <=10% episode violations",
+  "design_seeds": [
+    13001,
+    13002,
+    13003,
+    13004,
+    13005,
+    13006
+  ],
+  "historical_cap_mj_step": 0.2944864377500498
+}

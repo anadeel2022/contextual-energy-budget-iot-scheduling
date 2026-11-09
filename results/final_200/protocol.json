@@ -1,0 +1,30 @@
+{
+  "seed_start": 21001,
+  "n_seeds": 200,
+  "episodes": 5,
+  "steps": 50,
+  "scenarios": [
+    "nominal",
+    "light_traffic",
+    "heavy_traffic",
+    "weaker_channel",
+    "stronger_channel",
+    "heavy_weak"
+  ],
+  "methods": [
+    "Guarded",
+    "Fixed9dB",
+    "Unguarded"
+  ],
+  "energy_cap_mj_step": 0.2944864377500498,
+  "model_source": "v19 corrected FIFO frozen fit",
+  "guard": "guard_0.0",
+  "files_sha256": {
+    "code/env.py": "0b6fec4c6de93bf4f90617ed077b171eb7c56a378bc040e255b8c4bdd7226188",
+    "code/phy_layer.py": "4d8e8d0b498bf7c1ecf8697fb3bd55241ccf7773aacd496965463ac09bd773d7",
+    "code/feasible_v8.py": "b805c7e565997ca40b3ad8463a9aeeb81a7a09056b217dad81f26339babed1f4",
+    "code/final_generalization_v19.py": "ea64089d5e63542d70cb19e0ac4634aad6eb10b075937b5980d8f95d38e57e95",
+    "code/v19_fitted/model.json": "72fd4cd4f6d873e72f5e4f73fec4c93a764c842ca2efa8605661dbef45456eca",
+    "development_selection.json": "7e4e21b25e94bfc043d6b95208fd0867684d346924f82331c356be68ef741df3"
+  }
+}
